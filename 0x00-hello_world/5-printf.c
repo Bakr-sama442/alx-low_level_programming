@@ -2,7 +2,7 @@
 /**
  * main-entry point for the program.
  * Description: use printf
- * Returns:zero if no errors  otherwise returns non-zero.
+ * Return: 0
  */
 int main(void)
 {
