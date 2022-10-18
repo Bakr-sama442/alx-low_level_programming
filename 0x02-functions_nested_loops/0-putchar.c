@@ -1,7 +1,12 @@
 #include "main.h"
+/**
+ * main - print Holberton as a message
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	int str[] = {1, 2, 3, 4, 5, 6};
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(int);
