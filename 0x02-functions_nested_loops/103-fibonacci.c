@@ -3,7 +3,7 @@
  * main - main block
  * Description; computes and prints even numbers < 4,000,000
  * 5 below 1024 (excluded), followed by a new line
- * Return: 0
+ * Return: 0 zero
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	{
 		next = a + b;
 		a = b;
-		b = next;		
+		b = next;
 		if (next % 2 == 0)
 		{
 			sum += next;
