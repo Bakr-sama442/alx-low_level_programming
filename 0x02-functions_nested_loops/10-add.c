@@ -7,6 +7,7 @@
  * @n1: integer 1
  * @n2: integer 2
  *
+ * Description: adds two integers and returns the result
  * Returns: add integer 1 and integer 2
  */
 
