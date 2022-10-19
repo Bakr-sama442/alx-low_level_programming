@@ -31,17 +31,17 @@ int num_length(int num)
 
 int main(void)
 {
-	unsigned long f1 = 1, f2 = 2, tmp, max = 100000000, f10 = 0, f20 = 0, tmp0 = 0;
+	unsigned long f1 = 1, f2 = 2, tmp, max = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
 
 	while (i <= 98)
 	{
-		if (f10 > 0)
+		if (f1o > 0)
 		{
-			printf("%lu", F10);
+			printf("%lu", F1o);
 			initial0s = num_length(max) - 1 - num_length(f1);
 		}
-		while (f10 > 0 && initial0s > 0)
+		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
 			initial0s--;
@@ -49,11 +49,11 @@ int main(void)
 		printf("%lu", f1);
 
 		tmp = (f1 + f2) % max;
-		tmp0 = f10 + f20 + (f1 + f2) / max;
+		tmpo = f1o + f2o + (f1 + f2) / max;
 		f1 = f2;
-		f10 = f20;
+		f1o = f2o;
 		f2 = tmp;
-		f20 = tmp0;
+		f2o = tmpo;
 
 		if (i != 98)
 		{
