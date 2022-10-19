@@ -2,7 +2,7 @@
 
 
 /**
- * num_length - returns the length of string
+ * num_length - returns the length of number
  * @num : operand number
  * Return: number of digits
  */
@@ -38,7 +38,7 @@ int main(void)
 	{
 		if (f1o > 0)
 		{
-			printf("%lu", F1o);
+			printf("%lu", f1o);
 			initial0s = num_length(max) - 1 - num_length(f1);
 		}
 		while (f1o > 0 && initial0s > 0)
