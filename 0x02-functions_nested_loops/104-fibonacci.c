@@ -31,7 +31,8 @@ int num_length(int num)
 
 int main(void)
 {
-	unsigned long f1 = 1, f2 = 2, tmp, max = 100000000, f1o = 0, f2o = 0, tmpo = 0;
+	unsigned long f1 = 1, f2 = 2, tmp, max = 100000000, f1o = 0, f2o = 0;
+	unsigned long tmpo = 0;
 	short int i = 1, initial0s;
 
 	while (i <= 98)
